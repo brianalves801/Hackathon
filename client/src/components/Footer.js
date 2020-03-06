@@ -12,8 +12,15 @@ export default function Footer() {
           <div className="footer__home">
             <div className="footer__homeicon">
               <Link to="/home">
-                <img className="footer__homepic" alt="homepic" src={Home} />
+                <img
+                  className="footer__homepic"
+                  alt="homepic"
+                  width="28px"
+                  height="28px"
+                  src={Home}
+                />
               </Link>
+              <p>Home</p>
             </div>
           </div>
           <div className="footer__search">
@@ -21,17 +28,27 @@ export default function Footer() {
               <Link to="/search">
                 <img
                   className="footer__searchpic"
+                  width="28px"
+                  height="28px"
                   alt="searchpic"
                   src={Search}
                 />
               </Link>
+              <p>Search</p>
             </div>
           </div>
           <div className="footer__user">
             <div className="footer__usericon">
               <Link to="/profile">
-                <img className="footer__userpic" alt="userpic" src={User} />
+                <img
+                  className="footer__userpic"
+                  width="30px"
+                  height="30px"
+                  alt="userpic"
+                  src={User}
+                />
               </Link>
+              <p>Profile</p>
             </div>
           </div>
         </div>
