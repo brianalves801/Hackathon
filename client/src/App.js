@@ -13,6 +13,7 @@ import axios from "axios";
 import "./styles/app.css";
 
 //import components here
+import Home from "./components/Home";
 import Sample from "./components/Sample";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -28,7 +29,7 @@ class App extends Component {
       <Router>
         <Switch>
           <Route path="/home">
-            <Sample />
+            <Home />
           </Route>
           <Route path="/header" component={Header} />
 
