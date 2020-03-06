@@ -31,7 +31,7 @@ class App extends Component {
           <Route path="/home">
             <Home />
           </Route>
-          <Route path="/search">
+          <Route path="/profile">
             <SpeakersPage />
           </Route>
           <Route path="/insights/video">
