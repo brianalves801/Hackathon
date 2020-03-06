@@ -13,6 +13,7 @@ import "./styles/app.css";
 
 //import components here
 import Sample from "./components/Sample";
+import SpeakersPage from "./components/SpeakersPage";
 
 class App extends Component {
   constructor(props) {
@@ -25,6 +26,7 @@ class App extends Component {
       <div className="App">
         testing
         <Sample />
+        <SpeakersPage />
       </div>
     );
   }
