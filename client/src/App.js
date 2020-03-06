@@ -15,6 +15,7 @@ import "./styles/app.css";
 //import components here
 import Sample from "./components/Sample";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 class App extends Component {
   constructor(props) {
@@ -26,9 +27,15 @@ class App extends Component {
     return (
       <Router>
         <Switch>
-          <Sample />
-          <Footer />
+          <Route path="/home">
+            <Sample />
+          </Route>
+          <Route path="/page1">
+            <Header />
+          </Route>
+          <Route path="/page2"></Route>
         </Switch>
+        <Footer />
       </Router>
     );
   }
