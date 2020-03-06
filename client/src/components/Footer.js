@@ -39,7 +39,7 @@ export default function Footer() {
           </div>
           <div className="footer__user">
             <div className="footer__usericon">
-              <Link to="/profile">
+              <Link to="/speakerpage">
                 <img
                   className="footer__userpic"
                   width="30px"

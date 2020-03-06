@@ -15,16 +15,68 @@
           align-items: center;
   padding-left: 10px;
   padding-right: 10px;
-  background-color: black;
-  color: white;
+  background-color: #111111;
   height: 77px;
   width: 100vw;
+  position: fixed;
+  bottom: 0;
 }
 
 .footer__icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+.footer__home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 33.3%;
+      flex-basis: 33.3%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.footer__search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 33.3%;
+      flex-basis: 33.3%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.footer__user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 33.3%;
+      flex-basis: 33.3%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Metropolis;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  color: #6c7175;
 }
 
 html,
