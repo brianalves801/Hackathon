@@ -7,12 +7,14 @@ import {
   Switch,
   Link
 } from "react-router-dom";
+import axios from "axios";
 
 //styles
 import "./styles/app.css";
 
 //import components here
 import Sample from "./components/Sample";
+import Footer from "./components/Footer";
 
 class App extends Component {
   constructor(props) {
@@ -22,10 +24,12 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="App">
-        testing
-        <Sample />
-      </div>
+      <Router>
+        <Switch>
+          <Sample />
+          <Footer />
+        </Switch>
+      </Router>
     );
   }
 }
