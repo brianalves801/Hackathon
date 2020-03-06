@@ -5,8 +5,8 @@ export default function Footer() {
   return (
     <div>
       <Link to="/home">Home</Link>
-      <Link to="/page2">Page 2</Link>
-      <Link to="/page3">Page 3</Link>
+      <Link to="/header">Page 2</Link>
+      <Link to="/sample">Page 3</Link>
     </div>
   );
 }

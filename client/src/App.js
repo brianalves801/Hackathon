@@ -30,10 +30,12 @@ class App extends Component {
           <Route path="/home">
             <Sample />
           </Route>
-          <Route path="/page1">
-            <Header />
+          <Route path="/header" component={Header} />
+
+          <Route path="/sample">
+            aweaewgaew
+            <Sample />
           </Route>
-          <Route path="/page2"></Route>
         </Switch>
         <Footer />
       </Router>
