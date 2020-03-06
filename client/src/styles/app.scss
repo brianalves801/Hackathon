@@ -1,6 +1,5 @@
 @import "./partials/speakers";
-
-/* reset the page */
+@import "./partials/fonts";
 @import "./partials/footer";
 
 html,
@@ -17,3 +16,4 @@ body {
 }
 
 @import "./partials/home";
+@import "./partials/InsightNav";

@@ -20,7 +20,7 @@ export default function Footer() {
                   src={Home}
                 />
               </Link>
-              <p>Home</p>
+              <p className="footer__text">Home</p>
             </div>
           </div>
           <div className="footer__search">
@@ -34,7 +34,7 @@ export default function Footer() {
                   src={Search}
                 />
               </Link>
-              <p>Search</p>
+              <p className="footer__text">Search</p>
             </div>
           </div>
           <div className="footer__user">
@@ -48,7 +48,7 @@ export default function Footer() {
                   src={User}
                 />
               </Link>
-              <p>Profile</p>
+              <p className="footer__text">Profile</p>
             </div>
           </div>
         </div>
