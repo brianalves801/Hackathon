@@ -6,6 +6,7 @@
   flex-direction: column;
   align-content: stretch;
 
+  width: 100vw;
   height: 100vh;
 
   &__profile-container {
@@ -35,9 +36,16 @@
   }
 
   &__profile-speaker {
+    padding: 0 5px;
+    font-size: 20px;
+    font-family: Helvetica;
   }
 
-  &__profile-options {
+  &__select {
+    padding: 5px 3px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 16px;
   }
 
   &__recommendation-container,
@@ -48,9 +56,14 @@
   &__insights-container,
   &__settings-container {
     padding: 10px 0;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+
     display: flex;
     justify-content: flex-start;
     align-items: center;
+
+    height: 65px;
   }
 
   &__speaker-wrapper {
