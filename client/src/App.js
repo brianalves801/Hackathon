@@ -7,6 +7,7 @@ import {
   Switch,
   Link
 } from "react-router-dom";
+import "./styles/app.scss";
 import axios from "axios";
 
 //styles
