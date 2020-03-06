@@ -5,7 +5,7 @@
   align-items: center;
   padding-left: 10px;
   padding-right: 10px;
-  background-color: black;
+  background-color: #111111;
   color: white;
   height: 77px;
   width: 100vw;
@@ -13,4 +13,39 @@
 
 .footer__icons {
   display: flex;
+  flex-basis: 100%;
+}
+
+.footer__home {
+  display: flex;
+  flex-basis: 33.3%;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer__search {
+  display: flex;
+  flex-basis: 33.3%;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer__user {
+  display: flex;
+  flex-basis: 33.3%;
+  justify-content: center;
+  text-align: center;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Metropolis;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  color: #6c7175;
 }
