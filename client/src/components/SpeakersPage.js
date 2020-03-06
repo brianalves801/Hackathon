@@ -1,31 +1,91 @@
 import React from "react";
+import homeIcon from "../assets/Icons/Home.png";
 
 const SpeakersPage = () => {
   return (
     <div className="speaker">
       <section className="speaker__profile-container">
-        <div className="speaker__profile-containter-avatar">
-          <img className="speaker__avatar" src="" alt="avatar" />
+        <div className="speaker__profile-container-avatar">
+          <img className="speaker__avatar" src={homeIcon} alt="avatar" />
         </div>
-        <div className="speaker__profile-speaker">Paul Wang</div>
+
+        <div className="speaker__speaker-wrapper">
+          <div className="speaker__profile-speaker">Paul Wang</div>
+          <div className="speaker__profile-options">
+            <div className="speaker__profile-select-option">
+              <div value="VALUE">Professional Account &nbsp; ></div>
+            </div>
+          </div>
+        </div>
       </section>
+
       <section className="speaker__recommendation-container">
         <div className="speaker__icon-image-container">
-          <img className="icon" src="" alt="avatar" />
+          <img className="icon" src={homeIcon} alt="avatar" />
         </div>
         <div className="speaker__description-container">
           Recommendationed for you
         </div>
+
         <div className="speaker__rating-container">
           <span>7</span>
         </div>
       </section>
-      <section className="speaker__your-list-container"></section>
-      <section className="speaker__likes-container"></section>
-      <section className="speaker__history-container"></section>
-      <section className="speaker__downloads-container"></section>
-      <section className="speaker__insights-container"></section>
-      <section className="speaker__settings-container"></section>
+
+      <section className="speaker__your-list-container">
+        <div className="speaker__icon-image-container">
+          <img className="icon" src={homeIcon} alt="avatar" />
+        </div>
+        <div className="speaker__description-container">Your list</div>
+        <div className="speaker__rating-container">
+          <span>0</span>
+        </div>
+      </section>
+      <section className="speaker__likes-container">
+        <div className="speaker__icon-image-container">
+          <img className="icon" src={homeIcon} alt="avatar" />
+        </div>
+        <div className="speaker__description-container">Likes</div>
+        <div className="speaker__rating-container">
+          <span>0</span>
+        </div>
+      </section>
+      <section className="speaker__history-container">
+        <div className="speaker__icon-image-container">
+          <img className="icon" src={homeIcon} alt="avatar" />
+        </div>
+        <div className="speaker__description-container">History</div>
+        <div className="speaker__rating-container">
+          <span>1</span>
+        </div>
+      </section>
+      <section className="speaker__downloads-container">
+        <div className="speaker__icon-image-container">
+          <img className="icon" src={homeIcon} alt="avatar" />
+        </div>
+        <div className="speaker__description-container">Downloads</div>
+        <div className="speaker__rating-container">
+          <span>7</span>
+        </div>
+      </section>
+      <section className="speaker__insights-container">
+        <div className="speaker__icon-image-container">
+          <img className="icon" src={homeIcon} alt="avatar" />
+        </div>
+        <div className="speaker__description-container">Insights</div>
+        <div className="speaker__rating-container">
+          <span></span>
+        </div>
+      </section>
+      <section className="speaker__settings-container">
+        <div className="speaker__icon-image-container">
+          <img className="icon" src={homeIcon} alt="avatar" />
+        </div>
+        <div className="speaker__description-container">Settings</div>
+        <div className="speaker__rating-container">
+          <span>></span>
+        </div>
+      </section>
     </div>
   );
 };

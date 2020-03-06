@@ -1,3 +1,60 @@
-body {
+.speaker {
+  padding: 20px 30px;
   background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+
+  height: 100vh;
+
+  &__profile-container {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: flex-start;
+  }
+
+  &__profile-container-avatar {
+    width: 50px;
+    height: 50px;
+  }
+
+  &__description-container {
+    padding: 0 20px;
+  }
+
+  &__rating-container {
+    margin: 0 auto;
+    width: 100%;
+    text-align: right;
+  }
+
+  span {
+    width: 100%;
+  }
+
+  &__profile-speaker {
+  }
+
+  &__profile-options {
+  }
+
+  &__recommendation-container,
+  &__your-list-container,
+  &__likes-container,
+  &__history-container,
+  &__downloads-container,
+  &__insights-container,
+  &__settings-container {
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &__speaker-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
 }
