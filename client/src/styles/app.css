@@ -46,4 +46,48 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
+.insightnav {
+  font-family: Metropolis;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 15px;
+  /* identical to box height, or 75% */
+  letter-spacing: -0.24px;
+  color: #ffffff;
+  background-color: #111111;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.insightnav__title {
+  margin: 19px 0;
+}
+
+.insightnav__link {
+  text-decoration: none;
+  font-family: Metropolis;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 15px;
+  /* identical to box height, or 75% */
+  letter-spacing: -0.24px;
+  color: #ffffff;
+  padding: 19px 0;
+  width: 100%;
+}
+
+.insightnav__link-active {
+  border-bottom: 3px solid #eb493b;
+}
 /*# sourceMappingURL=app.css.map */
