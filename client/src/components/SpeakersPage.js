@@ -3,8 +3,11 @@ import React from "react";
 const SpeakersPage = () => {
   return (
     <div className="speaker">
-      <section className="speaker__profile-image-container">
-        <img className="speaker__avatar" src="" alt="avatar" />
+      <section className="speaker__profile-container">
+        <div className="speaker__profile-containter-avatar">
+          <img className="speaker__avatar" src="" alt="avatar" />
+        </div>
+        <div className="speaker__profile-speaker">Paul Wang</div>
       </section>
       <section className="speaker__recommendation-container">
         <div className="speaker__icon-image-container">

@@ -34,9 +34,8 @@ class App extends Component {
           </Route>
           <Route path="/header" component={Header} />
 
-          <Route path="/sample">
+          <Route path="/speaker">
             <SpeakersPage />
-            <Sample />
           </Route>
         </Switch>
         <Footer />
