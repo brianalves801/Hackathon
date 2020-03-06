@@ -14,10 +14,8 @@ import "./styles/app.css";
 
 //import components here
 import Home from "./components/Home";
-import Sample from "./components/Sample";
 import SpeakersPage from "./components/SpeakersPage";
 import Footer from "./components/Footer";
-import Header from "./components/Header";
 import Insights from "./components/Insights";
 
 class App extends Component {
