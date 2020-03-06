@@ -18,6 +18,7 @@ import Sample from "./components/Sample";
 import SpeakersPage from "./components/SpeakersPage";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Insights from "./components/Insights";
 
 class App extends Component {
   constructor(props) {
@@ -32,10 +33,14 @@ class App extends Component {
           <Route path="/home">
             <Home />
           </Route>
-          <Route path="/header" component={Header} />
-
-          <Route path="/speaker">
+          <Route path="/search">
             <SpeakersPage />
+          </Route>
+          <Route path="/insights/video">
+            <Insights />
+          </Route>
+          <Route path="/insights/general">
+            <Insights />
           </Route>
         </Switch>
         <Footer />
