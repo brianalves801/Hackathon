@@ -15,12 +15,7 @@ export default function Charts() {
       <img src={topvideo} alt="" srcset="" className="chart__graph" />
       <div className="chart__topwords">
         Speakers who are also members of the TED Brain Trust whose talks had
-        over 1 million views used words like
-        <p className="chart__topwords-list">Nuclear</p>
-        <p className="chart__topwords-list">Art</p>
-        <p className="chart__topwords-list">Wind</p>
-        <p className="chart__topwords-list">Twin</p>
-        <p className="chart__topwords-list">Slate</p>
+        over 1 million views used words like Nuclear, Art, Wind, Twin, Slate.
       </div>
     </div>
   );

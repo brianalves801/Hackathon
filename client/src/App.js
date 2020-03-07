@@ -28,6 +28,9 @@ class App extends Component {
     return (
       <Router>
         <Switch>
+          <Route path="/" exact>
+            <Home />
+          </Route>
           <Route path="/home">
             <Home />
           </Route>

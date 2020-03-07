@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import homeIcon from "../assets/Icons/Home.png";
 import clockIcon from "../assets/fav/clock.svg";
 import downloadIcon from "../assets/fav/download.svg";
@@ -82,7 +83,11 @@ const SpeakersPage = () => {
         <div className="speaker__icon-image-container">
           <img className="icon" src={insightIcon} alt="avatar" />
         </div>
-        <div className="speaker__description-container">Insights</div>
+        <div className="speaker__description-container">
+          <Link to="/insights/general" className="speaker__link">
+            Insights
+          </Link>
+        </div>
         <div className="speaker__rating-container">
           <span></span>
         </div>

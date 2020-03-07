@@ -11,7 +11,13 @@
           flex-direction: column;
   -ms-flex-line-pack: stretch;
       align-content: stretch;
+  width: 100vw;
   height: 100vh;
+}
+
+.speaker__link {
+  text-decoration: none;
+  color: white;
 }
 
 .speaker__profile-container {
@@ -48,8 +54,22 @@
   width: 100%;
 }
 
+.speaker__profile-speaker {
+  padding: 0 5px;
+  font-size: 20px;
+  font-family: Helvetica;
+}
+
+.speaker__select {
+  padding: 5px 3px;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
 .speaker__recommendation-container, .speaker__your-list-container, .speaker__likes-container, .speaker__history-container, .speaker__downloads-container, .speaker__insights-container, .speaker__settings-container {
   padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -59,6 +79,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 65px;
 }
 
 .speaker__speaker-wrapper {
@@ -173,6 +194,7 @@ body {
 
 .home {
   background-color: black;
+  padding: 0 0 77px 0;
 }
 
 .home__img {
@@ -265,9 +287,9 @@ body {
 .chart__topwords {
   font-family: Metropolis;
   font-style: normal;
+  line-height: inherit;
   font-weight: 500;
   font-size: 20px;
-  line-height: 15px;
   /* identical to box height, or 75% */
   color: #ffffff;
   padding: 10px;
