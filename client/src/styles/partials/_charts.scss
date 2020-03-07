@@ -1,0 +1,34 @@
+.chart {
+  background-color: #111111;
+  padding: 0 10px 77px 10px;
+
+  &__graph {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  &__topwords {
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 15px;
+    /* identical to box height, or 75% */
+
+    color: #ffffff;
+
+    padding: 10px;
+    text-align: justify;
+  }
+  &__topwords-list {
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 15px;
+    /* identical to box height, or 75% */
+
+    color: #ffffff;
+    margin: 5px;
+  }
+}
