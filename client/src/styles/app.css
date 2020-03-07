@@ -71,7 +71,11 @@
           flex-direction: column;
 }
 
-/* reset the page */
+@font-face {
+  font-family: "metropolis";
+  src: url("../styles/partials/fonts/Metropolis-Regular.otf");
+}
+
 .footer__all {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -139,10 +143,10 @@
   text-align: center;
 }
 
-p {
+.footer__text {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: Metropolis;
+  font-family: metropolis;
   font-style: normal;
   font-weight: 500;
   font-size: 8px;
@@ -176,7 +180,7 @@ body {
   height: 100vh;
 }
 
-.insightnav {
+.insightnav__all {
   font-family: Metropolis;
   font-style: normal;
   font-weight: 500;
@@ -184,7 +188,6 @@ body {
   line-height: 15px;
   /* identical to box height, or 75% */
   letter-spacing: -0.24px;
-  color: #ffffff;
   background-color: #111111;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -200,20 +203,49 @@ body {
 
 .insightnav__title {
   margin: 19px 0;
-}
-
-.insightnav__link {
-  text-decoration: none;
-  font-family: Metropolis;
+  font-family: metropolis;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 15px;
+  color: #ffffff;
+}
+
+.insightnav__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border-bottom: 0.5px solid grey;
+}
+
+.insightnav__videos {
+  text-decoration: none;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  text-decoration: none;
+  flex-basis: 50%;
+  text-align: center;
+  padding-bottom: 17px;
+}
+
+.insightnav__general {
+  text-decoration: none;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  text-align: center;
+  padding-bottom: 17px;
   /* identical to box height, or 75% */
   letter-spacing: -0.24px;
+}
+
+.insightnav__text {
   color: #ffffff;
-  padding: 19px 0;
-  width: 100%;
+  font-family: metropolis;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 15px;
 }
 
 .insightnav__link-active {
@@ -249,8 +281,7 @@ body {
   font-size: 20px;
   line-height: 15px;
   /* identical to box height, or 75% */
-  letter-spacing: -0.24px;
   color: #ffffff;
-  padding: 10px 0 0 0;
+  margin: 5px;
 }
 /*# sourceMappingURL=app.css.map */
